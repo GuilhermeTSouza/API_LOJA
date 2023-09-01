@@ -29,6 +29,22 @@ public class Produto {
         return valorUnitario;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public void setValorUnitario(double valorUnitario) {
+        this.valorUnitario = valorUnitario;
+    }
+
     @Override
     public String toString() {
         return "Produto{" +
