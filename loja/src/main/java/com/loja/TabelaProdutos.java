@@ -61,5 +61,9 @@ public class TabelaProdutos {
         }
     }
 
+    public void removerProduto(int produtoId){
+        Produto produtoRemover = this.buscarProdutoPeloId(produtoId);
+        this.produtos.remove(produtoRemover);
+    }
 
 }
